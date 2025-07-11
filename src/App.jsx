@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Slider from "./components/Slider";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Slider from "./Components/Slider";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Team from "./Components/Team";
 import Jokes from "./Pages/Jokes";
@@ -22,7 +22,7 @@ const App = () => {
                 <Slider />
                 <About />
                 <Team />
-                <Contact />
+                <Contact/>
               </>
             }
           />
